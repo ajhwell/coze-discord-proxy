@@ -10,9 +10,9 @@ services:
     volumes:
       - ./data:/app/coze-discord-proxy/data
     environment:
-      - BOT_TOKEN=MTE5OTk2xxxxxxxxxxxxxxrwUrUWNbG63w  # 必须修改为我们主动发送消息的Bot-Token
-      - GUILD_ID=119xxxxxxxx796  # 必须修改为两个机器人所在的服务器ID
-      - COZE_BOT_ID=119xxxxxxxx7  # 必须修改为由coze托管的机器人ID
-      - CHANNEL_ID=119xxxxxx24  # 默认频道-在使用与openai对齐的接口时(/v1/chat/completions) 消息会默认发送到此频道
-      - PROXY_SECRET=123456  # [可选]修改此行为请求头校验的值（前后端统一）
+      - BOT_TOKEN= MTIwOTE0NTg1OTU4NjAwMjk0NA.GnHrk2.eWIFZWsggeDI4l_kI4hB_znAsZJxLeFo7FQaz4  # 必须修改为我们主动发送消息的Bot-Token
+      - GUILD_ID= 1209148568506597376  # 必须修改为两个机器人所在的服务器ID
+      - COZE_BOT_ID= 1209145859586002944  # 必须修改为由coze托管的机器人ID
+      - CHANNEL_ID=  1209148568506597380 # 默认频道-在使用与openai对齐的接口时(/v1/chat/completions) 消息会默认发送到此频道
+      - PROXY_SECRET=123890  # [可选]修改此行为请求头校验的值（前后端统一）
       - TZ=Asia/Shanghai
